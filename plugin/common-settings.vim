@@ -3,7 +3,7 @@ set nocompatible
 " Common Leader Key:
 " If .vimrc hasn't set it to anything, then default to ,
 if !exists('g:mapleader')
-  let g:mapleader=','
+  let g:mapleader="\<space>"
 endif
 
 " Use System Clipboard By Default:
